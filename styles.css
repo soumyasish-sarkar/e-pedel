@@ -1,13 +1,18 @@
+/* Body and general styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
     background-color: #f4f4f4;
+    background-image: url('background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header {
-    background-color: #004aad;
+    background-color: rgba(0, 74, 173, 0.8); /* Slight opacity for header background */
     color: white;
     padding: 20px;
 }
@@ -20,7 +25,7 @@ nav a {
 
 .hero {
     padding: 50px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.7); /* Slight opacity for hero section */
 }
 
 footer {
@@ -30,4 +35,8 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0;
 }
